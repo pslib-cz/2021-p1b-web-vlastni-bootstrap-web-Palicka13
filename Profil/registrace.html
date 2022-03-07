@@ -7,6 +7,89 @@
     <title>Registrace</title>    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"></head>
 <body>
-    
+    <div class="px-4 pt-5 my-5 text-center">
+      <main>
+        <div >
+          <div>
+            <div class="d-flex flex-wrap justify-content-center">
+              <a href="../index.html" type="button" class="btn-close" aria-label="Close"></a>
+            </div>
+            <h4 class="mb-3">Registrace</h4>
+            <form>
+              <div class="col-lg-6 mx-auto">        
+                <div class="col-12">
+                  <label for="username" class="form-label">Jméno</label>
+                  <div class="input-group has-validation">
+                    <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                    <div class="invalid-feedback">
+                      Vaše Jméno je v pořádku.
+                    </div>
+                  </div>
+
+                  <label for="username" class="form-label">Příjmení</label>
+                  <div class="input-group has-validation">
+                    <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                    <div class="invalid-feedback">
+                      Vaše Příjmení je v pořádku.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="email" class="form-label">Emailová adresa</label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                      Váš email je správná.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="Password" class="form-label">Heslo</label>
+                    <input type="password" class="form-control" id="password" placeholder="Minimálně 8 znaků">
+                    <div class="invalid-feedback">
+                      Heslo je v pořádku.
+                    </div>
+                  </div>
+                
+                  <div class="col-12">
+                    <label for="Password" class="form-label">Ověření heslo</label>
+                    <input type="password" class="form-control" id="password" placeholder="Kontrola hesla">
+                    <div class="invalid-feedback">
+                      Heslo je v pořádku.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="address" class="form-label">Adresa</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                    <div class="invalid-feedback">
+                      Zadejte vaši adresu.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="Telefonní číslo" class="form-label">Telefonní číslo</label>
+                    <input type="text" class="form-control" id="Telefonní číslo" placeholder="+420 123 456 789" required="">
+                    <div class="invalid-feedback">
+                      Zadejte vaše telofoní číslo.
+                    </div>
+                  </div>
+                </div>
+               
+              <hr class="my-4">
+
+              <div class="checkbox mb-3">
+                <input type="checkbox" class="form-check-input" id="same-address">
+                <label class="form-check-label" for="same-address">Zasílat informace o nových produktech</label>
+              </div>
+
+              <hr class="my-4">
+              <div>
+                <a href="../index.html" class="btn btn-primary" type="submit">Zaregistrovat se</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
 </body>
 </html>
